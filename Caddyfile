@@ -1,0 +1,3 @@
+host.example.com {
+    reverse_proxy caddy-me:8080
+}
