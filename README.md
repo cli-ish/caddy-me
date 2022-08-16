@@ -1,11 +1,8 @@
 # Basic golang+caddy setup
 
-This repository can be used as template for https golang apps,
-the net.http server is not directly used for ssl from golang. 
+This repository can be used as a template for https Golang apps, the net.http server is not directly used for SSL by Golang.
 
-Instead, caddy(a golang project) manages the ssl stuff for us and allows us for
-ssl per default without the normal ssl troubleshooting (over letsencrypt).
-
+Instead, caddy (a Golang project) manages SSL for us and allows us to use SSL by default without the normal SSL debugging.
 
 # Setup
 
